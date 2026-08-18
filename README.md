@@ -1,17 +1,20 @@
-# Quartz v5
+# No Closed Form
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Source for [No Closed Form](https://higorhi.github.io), a digital garden built with [Quartz](https://quartz.jzhao.xyz).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Writing
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Add Markdown notes and their assets to `content/`. Changes pushed to `main` are built and deployed automatically with GitHub Actions.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Local preview
 
-## Sponsors
+Requires Node.js 22 or newer.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```shell
+npm ci
+npx quartz build --serve
+```
+
+## Deployment
+
+The GitHub Pages workflow is defined in `.github/workflows/deploy-main.yaml`.
