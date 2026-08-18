@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: No Closed Form
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+A digital garden of notes, ideas, and works in progress.

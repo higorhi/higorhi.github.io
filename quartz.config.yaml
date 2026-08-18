@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: No Closed Form
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -148,7 +148,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
@@ -230,8 +230,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/higorhi/higorhi.github.io
     layout:
       position: footer
       priority: 50
