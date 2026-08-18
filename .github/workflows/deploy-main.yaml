@@ -3,7 +3,7 @@ name: Deploy v5 Preview
 on:
   push:
     branches:
-      - v5
+      - main
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   deployments: write
 
 jobs:
-  deploy-v5:
+  deploy-main:
     if: ${{ github.repository == 'jackyzha0/quartz' }}
     runs-on: ubuntu-latest
     name: Deploy v5 to Cloudflare Pages
